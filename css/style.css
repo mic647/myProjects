@@ -1,0 +1,23 @@
+.btns{
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.cell{
+    background-color: lightgray;
+}
+.minesweeper{
+    margin: auto;
+    width: 250px;
+    height: 250px;
+}
+
+.shwon{
+    background-color: lightseagreen;
+}
+
+
+
+/* .mine{
+    background-color: red;
+} */

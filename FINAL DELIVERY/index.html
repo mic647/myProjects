@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class="btns">
+       
+    </div>
+    <div class="container">
+        <h3>score: <span>XXX</span> </h3>
+        <div><span class="hint" onclick="hint(this)">💡💡💡</span></div>
+        <h3><span class="life" >❤️❤️❤️</span> </h3>
+        <h3><span class="count"> 00:00 </span> </h3>
+        <div class="btn-st" onclick="init()">😀</div>
+        <button onclick="level1()"> Level 1 </button>
+        <button onclick="level2()"> Level 2 </button>
+        <button onclick="level3()"> Level 3 </button>
+        <table border="1" class="minesweeper">
+            <tbody class="minesweeper-board">
+            </tbody>
+        </table>
+    </div>
+    <!-- <div hidden class="popup">
+          <h2>Seat: <span>X-X</span></h2>
+          <h3>Price: <span>X$</span></h3>
+        </div> -->
+
+
+    <script src="js/util.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

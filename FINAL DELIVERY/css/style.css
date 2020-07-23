@@ -1,0 +1,51 @@
+td {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    transition: all .1s;
+    cursor: pointer;
+}
+
+.minesweeper{
+    /* margin: auto; */
+    width: 250px;
+    height: 250px;
+}
+
+.container{
+    position: absolute;
+    margin: auto;
+    /* left: 50%; */
+}
+
+h3{
+    display: inline;
+}
+.btn-st{
+cursor: pointer;
+}
+
+.btns{
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+
+.mine {
+    background-color:red;
+}
+.hide{
+    background-color: gray;
+}
+.shwon{
+    background-color: lightseagreen;
+}
+
+.cell {
+    background-color: lightgray;
+ }
+
+
+/* .mine{
+    background-color: red;
+} */

@@ -14,12 +14,6 @@ function getRandomInteger(min, max) {
     return Math.floor(Math.random() * (max - min + 1)) + min;
 }
 
-
-function getTime() {
-    return new Date().toString().split(' ')[4];
-}
-
-
 function printMat(mat, selector) {
     var strHTML = '<table border="0"><tbody>';
     for (var i = 0; i < mat.length; i++) {
@@ -147,7 +141,6 @@ function handleKey(event) {
 
 }
 
-//create mat
 function createMat(ROWS, COLS) {
     var mat = []
     for (var i = 0; i < ROWS; i++) {
